@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* font-family: "Golos Text", sans-serif;
+    font-family: "Merriweather", serif; */
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #E9DED4;
+    display: grid;
+    gap: 4px;
+    grid-template-rows: 40px auto 40px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 'header' 'main' 'footer';
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110%;
+    padding: 10px;
+    width: 15%;
+    margin: 16px 0px 52px 62px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Golos Text", sans-serif;
+    color: #595653;
+    font-weight: bold;
+    font-size: 16.65px;
+}
+
+.bg-start-page {
+    z-index: -1;
+    mix-blend-mode: multiply;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
